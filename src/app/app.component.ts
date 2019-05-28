@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Progress-Bar';
+  timercha = 20;
+
+  setTiemerCha() {
+    this.timercha = 50;
+  }
 }

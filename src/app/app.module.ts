@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
+import { CountTimerComponent } from './count-timer/count-timer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProgressbarComponent
+    ProgressbarComponent,
+    CountTimerComponent
   ],
   imports: [
     BrowserModule
